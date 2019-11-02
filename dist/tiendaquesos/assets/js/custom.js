@@ -36,23 +36,7 @@ function initPlugin(){
          });
        /* ---- For Mobile Menu Dropdown JS End ---- */
    
-       /* ---- For Sidebar JS Start ---- */
-         $('.sidebar-box span.opener').on("click", function(){
-         
-           if ($(this).hasClass("plus")) {
-             $(this).parent().find('.sidebar-contant').slideDown();
-             $(this).removeClass('plus');
-             $(this).addClass('minus');
-           }
-           else
-           {
-             $(this).parent().find('.sidebar-contant').slideUp();
-             $(this).removeClass('minus');
-             $(this).addClass('plus');
-           }
-           return false;
-         });
-       /* ---- For Sidebar JS End ---- */
+
    
        /* ---- For Footer JS Start ---- */
          $('.footer-static-block span.opener').on("click", function(){
