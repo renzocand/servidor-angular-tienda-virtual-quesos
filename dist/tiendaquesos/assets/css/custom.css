@@ -4626,11 +4626,14 @@ _______________________________________________________*/
 	box-shadow: none;
 	border-color: #ccc;
 }
-.product-qty {
-	float: left;
-	margin-right: 20px;
-	margin-top: 10px;
+@media (min-width: 768px){
+	.product-qty {
+		float: left;
+		margin-right: 20px;
+		margin-top: 10px;
+	}
 }
+
 .cart-dropdown .product-qty {
 	margin-top: 0;
 }
