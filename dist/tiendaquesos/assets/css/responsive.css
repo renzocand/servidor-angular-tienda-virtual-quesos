@@ -974,9 +974,7 @@ header#header {
 	display: none;
 }
 
-.header-top, .header-bottom {
-	padding: 0 15px;
-}
+
 
 .header-top.mobile {
     display: block !important;
@@ -1042,11 +1040,6 @@ header#header {
 	padding-left: 15px;
 }
 
-.header-right-link {
-	position: absolute;
-    right: 10px;
-    top: -121px;
-}
 
 
 .header-right-link > ul > li:first-child {
@@ -1947,7 +1940,7 @@ h2.main_title, .sidebar-title h3 {
 	padding: 35px 10px;
 	top: 67px;
 	width: 220px;
-	height: 320px;
+	height: auto;
 }
 .navbar-toggle {
 	margin-top: 16px;
@@ -2282,9 +2275,7 @@ ul li.service-box:last-child {
 .error-slogan {
 	font-size: 22px;
 }
-.short-by > span, .show-item > span {
-	display: none;
-}
+
 .short-by, .select-item, .compare {
 	display: inline-block;
 }
